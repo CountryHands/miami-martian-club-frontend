@@ -1,6 +1,5 @@
 <script>
 	import '../app.css';
-	import Nav from '../components/nav.svelte';
 	import Navbar from '../components/nav/navBar.svelte';
 	import Sidebar from '../components/nav/sideBar.svelte';
 	import Footer from '../components/footer.svelte';
