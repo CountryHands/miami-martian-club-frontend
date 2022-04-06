@@ -10,7 +10,7 @@
         },
         {
             header: "3. How to mint your Martian:",
-            body: "The process of purchasing your Martian and having it verified as a Non-Fungible Token on the blockchain is called minting. Navigate to the tab labelled “Buy a martian” and connect your crypto wallet.I It is important to make sure your wallet is connected to the polygon network before minting. Navigate to the network section of your wallet and add the polygon chain if you have not already done so. The chain information can be found at https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/Input the required information found above. Once all is completed, press the mint Button."
+            body: "The process of purchasing your Martian and having it verified as a Non-Fungible Token on the blockchain is called minting. Navigate to the tab labelled “Buy a martian” and connect your crypto wallet.It is important to make sure your wallet is connected to the polygon network before minting. Navigate to the network section of your wallet and add the polygon chain if you have not already done so. The chain information can be found at https://docs.polygon.technology/\ndocs/develop/metamask/config-polygon-on-metamask/ the required information found above. Once all is completed, press the mint Button."
         },
         {
             header: "4. What are gas Fees and Why am I being Charged them?",
