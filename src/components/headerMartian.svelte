@@ -12,9 +12,6 @@
 		text-shadow: 0.25rem 0.5rem #40f6a4;
 	}
 	@media only screen and (max-width: 600px) {
-		section {
-			background-image: url('../assets/images/bgImg2.jpg');
-		}
 		h1 {
 			text-shadow: 0.05rem 0.35rem #40f6a4;
 		}
