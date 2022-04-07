@@ -1,4 +1,4 @@
-<section class="h-screen -mt-1 flex place-content-center bg-cover bg-no-repeat sm:bg-center">
+<section class="h-screen -mt-1 flex place-content-center bg-cover bg-no-repeat bg-center">
 	<h1 class="text-6xl sm:text-8xl mt-48 sm:mt-60 text-white font-black text-center drop-shadow-xl ">
 		Miami Martian Club
 	</h1>
