@@ -27,7 +27,7 @@
 			id: 3,
 			stage: 'Stage 4:',
 			info: 'Martian Club Members Program',
-			ptag: '	We are partnering with businesses across the entertainment industry in order to give Miami Martian Club members exclusive opportunities such as discounted experiences, free club entry, and more!',
+			ptag: "Miami Martian Club Members gain access to guest lists, VIP experiences, and custom events at nightclubs and venues across Miami.",
 			isOpened: false
 		}
 	];
@@ -40,7 +40,7 @@
 </script>
 
 <section id="roadMap" class="h-full flex flex-col place-content-center text-white my-32">
-	<h1 class="text-6xl text-primary font-black my-8">Road <span class="text-white">Map</span></h1>
+	<h1 class="text-6xl text-primary font-black my-8"><span class="text-shadow">Road</span> <span class="text-white">Map</span></h1>
 	{#each articleStages as articleStage}
 		<article>
 			<button class="w-full" on:click={() => handleIsOpened(articleStage)}>
@@ -76,3 +76,10 @@
 		</article>
 	{/each}
 </section>
+
+
+<style>
+    .text-shadow {
+		text-shadow: 1px 0 20px rgb(200 255 0 / 31%);
+    }
+</style>

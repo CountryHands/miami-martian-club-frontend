@@ -12,8 +12,8 @@
 <div class="mx-4 sm:container sm:mx-auto text-lg">
 	<UniqueMartians />
 	<MeetTheMartians/>
-	<HowTo />
 	<RoadMap />
+	<HowTo />
 	<!-- <BuyMartian /> -->
 	<MartianDao />
 </div>

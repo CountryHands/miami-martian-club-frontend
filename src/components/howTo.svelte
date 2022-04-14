@@ -1,42 +1,48 @@
 <script>
-    let howToInfos = [
-        {
-            header: "1. How to Connect a crypto wallet:",
-            body: "A Metamask wallet is required for the storage of crypto currency and for the storage of your Martian. Press the “connect Wallet” Button in the top right corner once metamask has been added to your browser extension of choice. For more information on how to set up your metamask wallet, please visit https://metamask.io/"
-        },
-        {
-            header: "2. Buying the correct amount of MATIC.",
-            body: "Matic is the currency used on the polygon blockchain network. Log in to or sign up with your favorite crypto exchange. FTX, Coinbase, and crypto.com are popular choices. Use the exchange to purchase your MATIC. We recommend buying an extra little bit of MATIC for the Gas Fees (still WAYYYY lower than ETH gas fees). You can see an estimation of these fees in our discord server where we have a MATIC gas tracker. Once you have purchased the appropriate amount of MATIC from the exchange, send it to your wallet. Now you are ready to mint your Martian. NOTE: we recommend purchasing and moving the matic into your metamask ahead of time as some exchanged require a short time period before funds can be moved."
-        },
-        {
-            header: "3. How to mint your Martian:",
-            body: "The process of purchasing your Martian and having it verified as a Non-Fungible Token on the blockchain is called minting. Navigate to the tab labelled “Buy a martian” and connect your crypto wallet.It is important to make sure your wallet is connected to the polygon network before minting. Navigate to the network section of your wallet and add the polygon chain if you have not already done so. The chain information can be found at https://docs.polygon.technology/\ndocs/develop/metamask/config-polygon-on-metamask/ the required information found above. Once all is completed, press the mint Button."
-        },
-        {
-            header: "4. What are gas Fees and Why am I being Charged them?",
-            body: "Just as it takes gas to power a car, it takes computing power to maintain the blockchain and deploy/execute the smart contracts that signify these images as non-fungible ERC721 tokens. We at the Miami Martian Club understand gas prices and have done our best to ensure you do not have to pay unreasonably high fees for gas. Ethereum Blockchain gas prices are high right now, so we decided to mint our collection on Polygon, an L2 branch of Ethereum with lower gas fees. Your Martian’s smart contract is still applicable across the Ethereum blockchain, but the gas fees cost you less. To get an estimation as to how much extra MATIC to purchase for the gas price, Head over to the Miami Martian Club discord server where you can see the gas prices in real time. Pssst… click the discord button to your left."
-        },
-        {
-            header: "5. Once minted, Where can i find my martian?",
-            body: "Once Minted, your Martian will be transferred to your Metamask wallet. It may take a couple minutes, but your Martian can be found under the ”NFT” section of your Metamask wallet. You may also need to import your Martian. Open Metamask on your mobile device (this is important) and navigate to the NFT tab and click ”import NFT”. The address information can be found on our Opensea page and the token ID would be on your martian’s opensea profile. Just click the opensea icon to your left. For more questions concerning the storage of your Martian in your Metamask visit https://metamask.io"
-        },
-        {
-            header: "6. How to Access the martian DAO",
-            body: " Navigate to the drop down menu and select the “Enter DAO” button. Make sure your martian is in your wallet and your wallet is connected to the appropriate network. Our dao is hosted on Snapshot.org along with other notable DAOs such as OlympusDAO, Sushi and Decentraland."
-        },
-        {
-            header: "7. After I mint my NFT, How do i see it?",
-            body: "After minting your martian, you may not see it immediately in your metamask wallet. Don’t worry, this is normal. The metamask browser extension does’nt even let you see your NFTs. Head over to opensea.io, connect your wallet and check in your “hidden” NFTs tab. They will be viewable there or in your “collected” section. To import them so that they are viewable on your mobile metamask wallet, navigate to “import NFT” within your metamask mobile app (make sure you are on the wallet account you minted from). Then input the contract address and token ID found in the details section of your NFT viewable in Opensea."
-        },
-    ];
+	let howToInfos = [
+		{
+			header: '1. How to Connect a crypto wallet:',
+			body: 'A Metamask wallet is required for the storage of crypto currency and for the storage of your Martian. Press the “connect Wallet” Button in the top right corner once metamask has been added to your browser extension of choice. For more information on how to set up your metamask wallet, please visit https://metamask.io/'
+		},
+		{
+			header: '2. Buying the correct amount of ETH.',
+			body: 'ETH is the currency used on the Ethereum blockchain network. You can purchase Eth using your Metamask wallet. Once in your wallet, press the “buy” button and use either wyre or Transak to purchase your ETH. We recommend purchasing extra so that you have enough to cover gas fees. Want an idea of what gas fees are at the moment? Check out the Ethereum Gas Tracker in the Miami Martian Club discord server.'
+		},
+		{
+			header: '3. How to mint your Martian:',
+			body: 'The process of purchasing your Martian and having it verified as a Non-Fungible Token on the blockchain is called minting. Navigate to the tab labelled “Mint” and connect your crypto wallet. It is important to make sure your wallet is connected to the Ethereum Mainnet network before minting.'
+		},
+		{
+			header: '4. What are gas Fees and Why am I being Charged them?',
+			body: 'Just as it takes gas to power a car, it takes computing power to maintain the blockchain and deploy/execute the smart contracts that signify these images as non-fungible ERC-721 tokens. To see what the gas prices are now, check the Ethereum Gas Tracker in our discord.'
+		},
+		{
+			header: '5. Once minted, Where can i find my martian?',
+			body: 'Once Minted, your Martian will be transferred to your Metamask wallet. It may take a couple of minutes, but your Martian can be found under the ”NFT” section of your MOBILE Metamask wallet. To see your NFTs on your desktop wallet, connect that wallet to opensea and navigate to your profile. Your Martians should appear there. You may also need to import your Martian to your mobile wallet. Open Metamask on your mobile device and navigate to the NFT tab and click ”import NFT”. The address information can be found on your martian’s opensea listing within the “details” section. For more questions concerning the storage of your Martian in your Metamask visit https://metamask.io'
+		},
+		{
+			header: '6. How to Access the martian DAO',
+			body: 'Navigate to the drop down menu and select the “Enter DAO” button. Make sure your martian is in your wallet and your wallet is connected to the appropriate network. Our dao is hosted on Snapshot.org and will open as soon as minting begins.'
+		},
+		{
+			header: '7. After I mint my NFT, How do i see it?',
+			body: 'After minting your martian, you may not see it immediately in your metamask wallet. Don’t worry, this is normal. The metamask browser extension does’nt even let you see your NFTs. Head over to opensea.io, connect your wallet and check in your “hidden” NFTs tab. They will be viewable there or in your “collected” section. To import them so that they are viewable on your mobile metamask wallet, navigate to “import NFT” within your metamask mobile app (make sure you are on the wallet account you minted from). Then input the contract address and token ID found in the details section of your NFT viewable in Opensea.'
+		}
+	];
 </script>
 
 <section id="howTo" class="h-full place-content-center text-white my-32">
-    <h1 class="text-6xl text-primary font-black my-8">How <span class="text-white">To</span></h1>
-    {#each howToInfos as howToInfo}
-    <article class="my-5">
-        <h3 class="text-secondary text-xl font-black">{howToInfo.header}</h3>
-        <p class="mt-5 px-7">{howToInfo.body}</p>
-    </article>
-    {/each}
+	<h1 class="text-6xl text-primary font-black my-8"><span class="text-shadow">How</span> <span class="text-white">To</span></h1>
+	{#each howToInfos as howToInfo}
+		<article class="my-5">
+			<h3 class="text-secondary text-xl font-black">{howToInfo.header}</h3>
+			<p class="mt-5 px-7">{howToInfo.body}</p>
+		</article>
+	{/each}
 </section>
+
+<style>
+    .text-shadow {
+		text-shadow: 1px 0 20px rgb(200 255 0 / 31%);
+    }
+</style>

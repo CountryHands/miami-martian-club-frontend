@@ -1,5 +1,5 @@
 <section id="martiansDao" class="h-full place-content-center text-white my-32">
-    <h1 class="text-6xl text-primary font-black my-8">Martian <span class="text-white">DAO</span></h1>
+    <h1 class="text-6xl text-primary font-black my-8"><span class="text-shadow">Martian</span> <span class="text-white">DAO</span></h1>
     <article>
         <p>
             A 10% royalty will be collected on all Martian sales in the secondary market. This means
@@ -21,3 +21,9 @@
         <!-- <button> Enter DAO </button> -->
     </article>
 </section>
+
+<style>
+    .text-shadow {
+		text-shadow: 1px 0 20px rgb(200 255 0 / 31%);
+    }
+</style>

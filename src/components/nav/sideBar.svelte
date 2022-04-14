@@ -15,14 +15,14 @@
 		>Meet Martians</a
 	>
 	<a
-		href="#howTo"
-		class="block hover:text-primary"
-		>How To</a
-	>
-	<a
 		href="#roadMap"
 		class="block hover:text-secondary"
 		>Road Map</a
+	>
+	<a
+		href="#howTo"
+		class="block hover:text-primary"
+		>How To</a
 	>
 	<a
 		href="#martiansDao"
