@@ -20,9 +20,9 @@
 		>Road Map</a
 	>
 	<a
-		href="#howTo"
+		href="#faq"
 		class="block hover:text-primary"
-		>How To</a
+		>Faq</a
 	>
 	<a
 		href="#martiansDao"

@@ -2,7 +2,7 @@
 	import HeaderMartian from '../components/headerMartian.svelte';
 	import UniqueMartians from '../components/uniqueMartians.svelte';
 	import MeetTheMartians from '../components/meetTheMartians.svelte';
-	import HowTo from '../components/howTo.svelte';
+	import Faq from '../components/faq.svelte';
 	import RoadMap from '../components/roadMap.svelte';
 	// import BuyMartian from '../components/buyMartian.svelte';
 	import MartianDao from '../components/martianDao.svelte';
@@ -13,7 +13,7 @@
 	<UniqueMartians />
 	<MeetTheMartians/>
 	<RoadMap />
-	<HowTo />
+	<Faq />
 	<!-- <BuyMartian /> -->
 	<MartianDao />
 </div>
