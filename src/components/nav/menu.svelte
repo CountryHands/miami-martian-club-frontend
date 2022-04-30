@@ -4,4 +4,5 @@
 	<a href="#roadMap" class="mx-2 hover:text-secondary">Road Map</a>
 	<a href="#faq" class="mx-2 hover:text-primary">Faq</a>
 	<a href="#martiansDao" class="mx-2 hover:text-primary">DAO</a>
+	<a href="#teamMartians" class="mx-2 hover:text-primary">Team</a>
 </nav>

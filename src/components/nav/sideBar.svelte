@@ -29,6 +29,11 @@
 		class="block hover:text-primary"
 		>DAO</a
 	>
+	<a
+		href="#teamMartians"
+		class="block hover:text-secondary"
+		>Team</a
+	>
 	</nav>
 </aside>
 

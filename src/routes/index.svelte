@@ -6,6 +6,7 @@
 	import RoadMap from '../components/roadMap.svelte';
 	// import BuyMartian from '../components/buyMartian.svelte';
 	import MartianDao from '../components/martianDao.svelte';
+	import TeamMartians from "../components/team.svelte";
 </script>
 
 <HeaderMartian/>
@@ -16,4 +17,5 @@
 	<Faq />
 	<!-- <BuyMartian /> -->
 	<MartianDao />
+	<TeamMartians />
 </div>
