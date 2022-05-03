@@ -16,12 +16,12 @@
 	>
 	<a
 		href="#roadMap"
-		class="block hover:text-secondary"
+		class="block hover:text-primary"
 		>Road Map</a
 	>
 	<a
 		href="#faq"
-		class="block hover:text-primary"
+		class="block hover:text-secondary"
 		>Faq</a
 	>
 	<a

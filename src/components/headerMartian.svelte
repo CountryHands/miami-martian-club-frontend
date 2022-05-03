@@ -9,11 +9,11 @@
 		background-image: url('../assets/images/backgroundImgSmall.jpg');
 	}
 	h1 {
-		text-shadow: 0.25rem 0.5rem #40f6a4;
+		text-shadow: 0.25rem 0.5rem #11c7f7;
 	}
 	@media only screen and (max-width: 600px) {
 		h1 {
-			text-shadow: 0.05rem 0.35rem #40f6a4;
+			text-shadow: 0.05rem 0.35rem #11c7f7;
 		}
 	}
 </style>

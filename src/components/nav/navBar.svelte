@@ -1,5 +1,5 @@
 <script>
-	import logo from '../../assets/images/logoHere.png';
+	import logo from '../../assets/images/mmclogo512.jpg';
 	import Hamburger from './hamburger.svelte';
 	import Menu from './menu.svelte';
 
